@@ -39,7 +39,7 @@ In your R Notebook show the the fitted values on a time plot and show your forec
   - Tidyquant:  Used to import stock data from the web into R Studio
   - imputeTS: Used to impute missing values in Time Series.  This makes sense for stock data, as there are days in which the stock market is closed (weekends, holidays)
 
-
+ 
 ## Launch
 
 - Download .Rmd and import into R.  Make sure to download the packages listed in "Technologies Used"
@@ -48,12 +48,21 @@ In your R Notebook show the the fitted values on a time plot and show your forec
 ## Screenshots
 
 ![Exponential Smoothing](./exponentialsmoothing.png)
+Comparison of 3 types of exponential smoothing forecasts.  Clearly, the Holt forecast makes the most sense of these options, as it is following the trend of the data.
 
 ![Single Difference Log](./singledifferencelog.png)
+Time Series, ACF, and PACF of single-differenced logged Closing stock data.  Data appears to be stationary based on this visual.
 
 ![SARIMA Forecast](./sarimaforecast.png)
+Once the best SARIMA formula is chosen, a forecast of 12 months is shown in this visual.
 
 ![Neural Network Forecast](./neuralnetworkforecast.png)
+Using a Neural Network, we can forecast the data up to a certain point.  I cannot seem to figure out how to extend this forecast beyond this point (and I would love if someone could assist me with this.)
+
+
+## Acknowledgements
+
+Thank you Professor Eric Suess for teaching this, and so many other, Statistics classes at Cal State East Bay.  Thank you again for allowing students to use projects to demonstrate what we have learned, and to put into our github's for the recruiters' viewing.  Shout out to Rob J Hyndman and George Athanasopoulos for writing an amazing book, "Forecasting: Principles and Practice."
 
 
 
