@@ -47,7 +47,13 @@ In your R Notebook show the the fitted values on a time plot and show your forec
 
 ## Screenshots
 
+![Exponential Smoothing](./exponentialsmoothing.png)
 
+![Single Difference Log](./singledifferencelog.png)
+
+![SARIMA Forecast](./sarimaforecast.png)
+
+![Neural Network Forecast](./neuralnetworkforecast.png)
 
 
 
