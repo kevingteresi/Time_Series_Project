@@ -7,6 +7,7 @@ R Project to Demonstrate Time Series Forecasting on Tesla Stock Data
 * [Technologies Used](#technologies-used)
 * [Launch](#launch)
 * [Screenshots](#screenshots)
+* [Acknowledgements](#acknowledgements)
 
 
 
